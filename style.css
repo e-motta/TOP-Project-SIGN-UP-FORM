@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    background-color: #f9fafb;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+}
+
+a {
+    color: white;
+}
+
+.left-outer {
+    display:flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 500px;
+    min-height: 100vh;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(utils/Norse-Bold.otf)
+}
+
+.logo-container {
+    display: flex;
+    font-size: 95px;
+    font-family: Norse-Bold, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    align-items: flex-end;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.486);
+    padding: 12px;
+    margin-top: 215px;
+}
+
+.logo-container img {
+    height: 125px;
+}
+
+.left-filler {
+    flex: 1;
+}
+
+.footer-left {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.right-outer > * {
+    padding: 0 160px 0 45px;
+}
+
+.main-text-container {
+    padding-top: 160px;
+}
+
+.main-text-container > * {
+    padding-bottom: 25px;
+}
+
+.user-form-container {
+    background-color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 15px;
+    margin-top: 40px;
+    box-shadow: 0px 5px 5px rgb(221, 221, 221);
+}
+
+.user-form-container span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.user-form-container form {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: rgb(75, 74, 74);
+    max-width: 600px;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50px 20px 0;
+}
+
+.form-element > input {
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 5px;
+    width: 230px;
+    padding: 8px;
+    margin-top: 3px;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid blue;
+    box-shadow: 0px 5px 5px rgb(231, 231, 231);
+}
+
+.submit-btn-container {
+    margin: 35px 0;
+}
+
+.submit-btn-container input {
+    background-color: #596d48;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: 0px;
+    padding: 12px 50px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 5px rgb(231, 231, 231);
+    cursor: pointer;
+}
+
+.footer-right {
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.footer-right a {
+    color: #596d48;
+    text-decoration: none;
+}

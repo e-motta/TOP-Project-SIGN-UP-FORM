@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Project: Sign-up Form</title>
+</head>
+<body>
+  <div class="left-outer">
+    <div class="logo-container">
+      <img src="/images/odin-lined.png" alt="Odin logo">
+      <span>ODIN</span>
+    </div>
+    <div class="left-filler"></div>
+    <div class="footer-left">
+      <span>Photo by <a href="https://unsplash.com/photos/25xggax4bSA">Halie West </a>
+      on <a href="https://unsplash.com/">Unsplash</a></span>
+    </div>
+  </div>
+  <div class="right-outer">
+    <div class="main-text-container">
+      <div>This is not a real online service! You know you need something like 
+      this in your life to help you realize your deepest dreams.<br>
+      Sign up <em>now</em> to get started.</div>
+      <div>You <em>know</em> you want to.</div>
+    </div>
+    <div class="user-form-container">
+      <span>Let's do this!</span>
+      <form action="submit" method="post" id="sign-up-form">
+        <div class="form-element">
+          <label for="first-name">FIRST NAME</label>
+          <input type="last-name" id="first-name" name="first-name" required>
+        </div>
+        <div class="form-element">
+          <label for="last-name">LAST NAME</label>
+          <input type="text" id="last-name" name="last-name" required>
+        </div>
+        <div class="form-element">
+          <label for="email">EMAIL</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-element">
+          <label for="phone-num">PHONE NUMBER</label>
+          <input type="tel" id="phone-num" name="phone-num" required>
+        </div>
+        <div class="form-element">
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-element">
+          <label for="confirm-password">CONFIRM PASSWORD</label>
+          <input type="password" id="confirm-password" name="confirm-password" required>
+        </div>
+      </form>
+    </div>
+    <div class="submit-btn-container">
+      <input type="submit" value="Create Account" form="sign-up-form">
+    </div>
+    <div class="footer-right">
+      <span>Already have an account? <a href="#">Log in</a></span>
+    </div>
+  </div>
+</body>
+</html>
